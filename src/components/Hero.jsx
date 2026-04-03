@@ -53,13 +53,13 @@ export const Hero = () => {
             
             {/* Background Slider Container */}
             <div className="absolute inset-0 w-full h-full">
-                <AnimatePresence mode="wait">
+                <AnimatePresence>
                     <motion.div
                         key={currentSlide}
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         exit={{ opacity: 0 }}
-                        transition={{ duration: 1.5, ease: "easeInOut" }}
+                        transition={{ duration: 0.5, ease: "easeInOut" }}
                         className="absolute inset-0 w-full h-full"
                     >
                         {/* Background Image with Continuous Cinematic Zoom */}
