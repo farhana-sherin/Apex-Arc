@@ -74,7 +74,7 @@ export const Portfolio = () => {
               <motion.img 
                 whileHover={{ scale: 1.08 }}
                 src={img1}
-                className="w-full h-full object-cover grayscale-[40%] group-hover:grayscale-0 transition-all duration-700"
+                className="w-full h-full object-cover grayscale-[40%] group-hover:grayscale-0 transition-all duration-700 rounded-3xl"
               />
             </motion.div>
 
@@ -82,7 +82,7 @@ export const Portfolio = () => {
               <motion.img 
                 whileHover={{ scale: 1.08 }}
                 src={img3}
-                className="w-full h-full object-cover grayscale-[40%] group-hover:grayscale-0 transition-all duration-700"
+                className="w-full h-full object-cover grayscale-[40%] group-hover:grayscale-0 transition-all duration-700 rounded-3xl"
               />
             </motion.div>
           </div>
@@ -93,7 +93,7 @@ export const Portfolio = () => {
               <motion.img 
                 whileHover={{ scale: 1.08 }}
                 src={img2}
-                className="w-full h-full object-cover grayscale-[40%] group-hover:grayscale-0 transition-all duration-700"
+                className="w-full h-full object-cover grayscale-[40%] group-hover:grayscale-0 transition-all duration-700 rounded-3xl"
               />
             </motion.div>
 
@@ -101,7 +101,7 @@ export const Portfolio = () => {
               <motion.img 
                 whileHover={{ scale: 1.08 }}
                 src={img5}
-                className="w-full h-full object-cover grayscale-[40%] group-hover:grayscale-0 transition-all duration-700"
+                className="w-full h-full object-cover grayscale-[40%] group-hover:grayscale-0 transition-all duration-700 rounded-3xl"
               />
             </motion.div>
           </div>
@@ -111,7 +111,7 @@ export const Portfolio = () => {
             <motion.img 
               whileHover={{ scale: 1.03 }}
               src={img4}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover rounded-3xl"
             />
           </motion.div>
 

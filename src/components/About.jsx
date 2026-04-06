@@ -94,14 +94,14 @@ export const About = () => {
           transition={{ duration: 0.8 }}
           className="lg:col-span-7 relative group"
         >
-          <div className="relative h-[340px] md:h-[420px] lg:h-[480px] overflow-hidden shadow-xl rounded-sm">
+          <div className="relative h-[340px] md:h-[420px] lg:h-[480px] overflow-hidden shadow-xl rounded-3xl">
              <motion.img 
                 whileHover={{ scale: 1.03 }}
                 src={archImg} 
                 alt="Studio Masterpiece" 
                 className="w-full h-full object-cover filter contrast-110 saturate-50 grayscale-[20%] group-hover:grayscale-0 group-hover:saturate-100 transition-all duration-700" 
              />
-             <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
+             <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent rounded-3xl"></div>
           </div>
           
           {/* Floating Label */}

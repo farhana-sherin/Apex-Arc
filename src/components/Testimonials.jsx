@@ -50,7 +50,7 @@ export const Testimonials = () => {
               key={i}
               whileHover={{ y: -10, scale: 1.02 }}
               transition={{ duration: 0.5 }}
-              className={`min-w-[300px] md:min-w-[400px] p-10 flex flex-col justify-between transition-shadow duration-500 border shadow-sm hover:shadow-xl
+              className={`min-w-[300px] md:min-w-[400px] p-10 flex flex-col justify-between transition-shadow duration-500 border shadow-sm hover:shadow-xl rounded-3xl
                 ${i % 2 === 0 
                   ? 'bg-[#141414] border-[#222]' 
                   : 'bg-[#1a1a1a] border-[#2a2a2a]'

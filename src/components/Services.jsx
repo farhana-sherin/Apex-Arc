@@ -57,7 +57,7 @@ export const Services = () => {
                 <motion.div 
                   whileHover={{ y: -20, rotateY: 5, scale: 1.02 }}
                   transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-                  className="relative w-full aspect-[3/4] overflow-hidden mb-8 shadow-[0_25px_60px_rgba(0,0,0,0.06)] group-hover:shadow-[0_45px_100px_rgba(0,0,0,0.1)]"
+                  className="relative w-full aspect-[3/4] overflow-hidden mb-8 shadow-[0_25px_60px_rgba(0,0,0,0.06)] group-hover:shadow-[0_45px_100px_rgba(0,0,0,0.1)] rounded-3xl"
                 >
                   <motion.img 
                     whileHover={{ scale: 1.1, filter: 'blur(0px)' }}
@@ -65,7 +65,7 @@ export const Services = () => {
                     animate={{ filter: 'blur(0px)' }}
                     src={svc.img} 
                     alt={svc.title} 
-                    className="w-full h-full object-cover filter brightness-[0.95] saturate-50 group-hover:saturate-100 transition-all duration-[1.5s]"
+                    className="w-full h-full object-cover filter brightness-[0.95] saturate-50 group-hover:saturate-100 transition-all duration-[1.5s] "
                   />
                   <div className="absolute top-8 left-8 text-white font-playfair italic text-3xl drop-shadow-xl z-10 select-none">
                     {svc.num}
