@@ -12,6 +12,7 @@ const slides = [
     headline: {
         main: "Simplicity",
         italic: "Meets",
+        
         sub: "Statute."
     },
     description: "Exploring the boundary where structural integrity satisfies aesthetic desire. We define the modern monument through pure form and calculate each line for impact."
